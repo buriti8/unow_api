@@ -27,7 +27,7 @@ if ($count > 0) {
             "name" => $name,
             "document" => $document,
             "appointment_date" => $appointment_date,
-            "status" => $status,
+            "status" => Appointment::getStatusNameAttribute($status),
             "created_at" => $created_at,
             "updated_at" => $updated_at,
         ];

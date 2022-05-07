@@ -168,4 +168,21 @@ class Appointment
 
         return $count;
     }
+
+    public static function getStatusNameAttribute($status){
+        switch ($status) {
+            case null:
+                return 'Pendiente';
+                break;
+            case 0:
+                return 'Rechazada';
+                break;
+            case 1:
+                return 'Confirmada';
+                break;
+            default:
+                return '';
+                break;
+        }
+    }
 }

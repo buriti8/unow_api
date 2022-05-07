@@ -25,7 +25,7 @@ if ($item->name != null) {
         "name" => $item->name,
         "document" => $item->document,
         "appointment_date" => $item->appointment_date,
-        "status" => $item->status,
+        "status" => Appointment::getStatusNameAttribute($item->status),
         "created_at" => $item->created_at,
         "updated_at" => $item->updated_at,
     ];
