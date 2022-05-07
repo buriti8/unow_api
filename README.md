@@ -5,7 +5,7 @@ This is a PHP API REST to create and list an appointments.
 ## ✨ Features
 
 - PHP
-- Mysql
+- MySQL
 - API REST
 
 ## 💁‍♂️ How to use
@@ -18,7 +18,7 @@ Create a database in mysql
 
     CREATE DATABASE unow_api CHARACTER SET utf8 COLLATE utf8_spanish_ci;
 
-Execute the script file "appointments.sql" to create structure table
+Execute the script file [appointments.sql](https://github.com/buriti88/unow_api/blob/main/appointments.sql) to create structure table
 
 ## 📝 Notes
 
