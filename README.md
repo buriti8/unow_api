@@ -16,7 +16,7 @@ Clone the repository
 
 Create a database in mysql
 
-    CREATE DATABASE unow-api CHARACTER SET utf8 COLLATE utf8_spanish_ci;
+    CREATE DATABASE unow_api CHARACTER SET utf8 COLLATE utf8_spanish_ci;
 
 Execute the script file "appointments.sql" to create structure table
 
