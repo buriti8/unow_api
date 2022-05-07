@@ -3,7 +3,7 @@
 class Database
 {
     private $host = "127.0.0.1";
-    private $database_name = "unow-api";
+    private $database_name = "unow_api";
     private $username = "root";
     private $password = "";
 
